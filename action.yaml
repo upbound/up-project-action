@@ -28,6 +28,7 @@ runs:
       run: |
         CHANNEL=${{ inputs.channel }}
         VERSION=${{ inputs.version }}
+        ENDPOINT=${{ inputs.endpoint }}
         echo "Installing up-cli from channel '$CHANNEL' with version '$VERSION'"
         curl -sf $ENDPOINT | CHANNEL=$CHANNEL VERSION=$VERSION sh
         chmod +x ./up
