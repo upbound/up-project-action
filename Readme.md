@@ -1,3 +1,10 @@
+|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer supported.
+|---|---|
+
+# ⚠️ Deprecation and Archive Notice ⚠️
+
+This repository is deprecated and no longer actively maintained. We recommend transitioning to the following repository for continued support and enhanced functionality: [upbound/action-up-project](https://github.com/upbound/action-up-project).
+
 # up-project-action
 
 This GitHub Action, `up-project-action`, installs the `up-cli` tool, authenticates with upbound using a personal access token, builds the up project, and optionally pushes it to upbound on the `main` branch.
